@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+     <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><img src="close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (2).svg" alt=""></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Us</a></li>
+        </ul>
+        <ul>
+            <li ><a href="#"><i class="fa-solid fa-dumbbell fa-2xl"></i></a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Page</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="hideOnMobile"><a href="#">Info</a></li>
+            <li class="hideOnMobile"><a href="#">Project</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><img src="menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (3).svg" alt=""></a></li>
+        </ul>
+     </nav>
+     <!-- responsive-navbar-javascript-code -->
+     <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+     </script>
+ <!-- resposive-navbar-javascript-code-end-here -->
+<!-- nav-end-here -->
+ <!-- main-contianer -->
+     <div class="main-center-img">
+        <div class="text-img">
+            <h1>WORK WITH <br>
+            PROFESSIONALS</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis ipsum ab quisquam cumque! 
+                <br>libero eaque voluptatem facere laudantium ex minus fugiat recusandae facilis </P>
+                <button>START NOW</button> 
+                <a href="#">LEARN MORE <i  class="fa-solid fa-arrow-up fa-rotate-by fa-2xl" style="color: #fff; --fa-rotate-angle: 65deg;" ></i></a>
+        </div>
+     </div>
+     <br>
+     <br>
+<!-- main- contianer-end-here -->
+     <div class="aside-text">
+        <h1>Get Ready To Reach <br>
+        Your Fitness <span>Goals</span></h1>
+        <br>
+        <p>We are a gym that is committed to helping people <br>
+        reach their fitness goals. We offer a variety of theirs <br>
+         programs and services to fit your needs. whether <br>
+         you are a experienced athlete. 
+        <br>
+    <br>
+        We believe that everyone should have access to <br>
+    the benefits of exercise make it happen.</p>
+     </div> 
+<!-- aside-text-end-here -->
+     <div class="all-tree-img">
+        <img src="https://cdn.pixabay.com/photo/2022/10/22/12/32/gym-7539141_1280.jpg" loading="lazy" alt="img" class="img-one">
+        <img src="https://cdn.pixabay.com/photo/2024/02/10/02/46/fitness-8564036_960_720.jpg" loading="lazy" alt="img" class="img-two">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_1280.jpg" alt="img" loading="lazy" class="img-tree">
+     </div>
+     <!-- all-tree-img-end-here --> 
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <div class="what">
+        <h2>Why Choose <mark style="border-radius: 8px; color: #fff;">Us</mark></h2>
+     </div>
+     <div class="all-tree-boxses-parent">
+        <div class="box-1">
+            <i class="fa-solid fa-brain fa-2xl" style="color: #000000;"></i>           
+             <h3>Free Consulation</h3>
+            <br>
+            <p>Equilty Bandwidth interacionis <br>
+            Design Effects Metrics. partner <br>
+           Leve  investor Sales Client.</p>
+        </div>
+
+        <div class="box-2">
+            <i class="fa-solid fa-bullseye fa-2xl" style="color: #141414;"></i>
+            <h3>Qualified Instructor</h3>
+           <br>
+           <p>Equilty Bandwidth interacionis <br>
+           Design Effects Metrics. partner <br>
+          Leve  investor Sales Client.</p>
+        </div>
+
+        <div class="box-3">
+            <i class="fa-solid fa-bolt fa-2xl" style="color: #050505;"></i>           
+            <h3>Excellent Services</h3>
+           <br>
+           <p>Equilty Bandwidth interacionis <br>
+           Design Effects Metrics. partner <br>
+          Leve  investor Sales Client.</p>
+        </div>
+     </div>
+     <br> 
+     <br>
+     <br>
+           
+</body>
+</html>
